@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+}
+
+
+footer li  {
+    background-color: #63645d;
+    margin-bottom: 2px;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+footer li a {
+    color: white;
+    text-transform: uppercase;
+}
