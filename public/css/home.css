@@ -9,10 +9,10 @@
 }
 
 .home .banner img {
-    max-width: 100%;
+    width: 100%;
 }
 
-/* productos */
+/* Productos */
 
 .home .producto {
     width: 100%;
@@ -66,7 +66,7 @@
 
 }
 
-/*tablet*/
+/* Tablet */
 @media(min-width: 768px){
     .home .banner {
         display: block;
@@ -87,4 +87,27 @@
         margin-right: 0;
     }
     
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    .home .productos {
+        overflow: hidden;
+    }
+    
+    .home .producto {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .home .producto:nth-child(2n){
+        margin-right: 2%;
+    }
+
+    .home .producto:nth-child(3n){
+        margin-right: 0%;
+    }
+
 }
